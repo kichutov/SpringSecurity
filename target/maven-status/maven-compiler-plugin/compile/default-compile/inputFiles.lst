@@ -1,0 +1,12 @@
+D:\IdeaProjects\SpringSecurity\src\main\java\com\kichutov\app\controller\AuthController.java
+D:\IdeaProjects\SpringSecurity\src\main\java\com\kichutov\app\service\impl\RegistrationServiceImpl.java
+D:\IdeaProjects\SpringSecurity\src\main\java\com\kichutov\app\model\Role.java
+D:\IdeaProjects\SpringSecurity\src\main\java\com\kichutov\app\repository\AppUserRepository.java
+D:\IdeaProjects\SpringSecurity\src\main\java\com\kichutov\app\dto\AppUserDto.java
+D:\IdeaProjects\SpringSecurity\src\main\java\com\kichutov\app\model\AppUser.java
+D:\IdeaProjects\SpringSecurity\src\main\java\com\kichutov\app\exception\AppUserRegistrationException.java
+D:\IdeaProjects\SpringSecurity\src\main\java\com\kichutov\app\config\SecurityConfig.java
+D:\IdeaProjects\SpringSecurity\src\main\java\com\kichutov\app\service\impl\UserDetailsServiceImpl.java
+D:\IdeaProjects\SpringSecurity\src\main\java\com\kichutov\app\config\PasswordConfig.java
+D:\IdeaProjects\SpringSecurity\src\main\java\com\kichutov\app\SpringSecurityApp.java
+D:\IdeaProjects\SpringSecurity\src\main\java\com\kichutov\app\service\RegistrationService.java

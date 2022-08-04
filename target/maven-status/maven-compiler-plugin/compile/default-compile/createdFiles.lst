@@ -1,0 +1,12 @@
+com\kichutov\app\service\impl\UserDetailsServiceImpl.class
+com\kichutov\app\model\AppUser.class
+com\kichutov\app\controller\AuthController.class
+com\kichutov\app\service\RegistrationService.class
+com\kichutov\app\repository\AppUserRepository.class
+com\kichutov\app\dto\AppUserDto.class
+com\kichutov\app\config\PasswordConfig.class
+com\kichutov\app\model\Role.class
+com\kichutov\app\config\SecurityConfig.class
+com\kichutov\app\exception\AppUserRegistrationException.class
+com\kichutov\app\service\impl\RegistrationServiceImpl.class
+com\kichutov\app\SpringSecurityApp.class

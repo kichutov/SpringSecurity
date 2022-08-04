@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Registration page</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/4.0/examples/signin/signin.css" rel="stylesheet" crossorigin="anonymous"/>
+</head>
+
+
+<body>
+<div class="container">
+
+    <form class="form-signin" method="post" th:action="@{/registration}" th:object="${appUserDto}">
+        <h2 class="form-signin-heading" style="text-align: center">Регистрация</h2>
+        <p>
+            <input type="email" id="username" name="username" class="form-control" placeholder="Email" required autofocus>
+        </p>
+        <p>
+            <input type="password" id="password" name="password" class="form-control" placeholder="Пароль" required>
+        </p>
+        <p>
+            <input type="password" id="matchingPassword" name="matchingPassword" class="form-control" placeholder="Повторите пароль" required>
+        </p>
+        <p th:text="${message}" style="text-align: center"></p>
+        <p th:text="${error}" style="color: red; text-align: center"></p>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Зарегистрироваться</button>
+        <a href="/login" style="text-align: center; display: block; padding: 10px 0">Вход</a>
+    </form>
+
+</div>
+</body></html>
